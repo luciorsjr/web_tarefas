@@ -2,8 +2,8 @@
 // 1234
 
 //const baseUrl = "https://api.b7web.com.br/devcond/api/admin";
-//const baseUrl = 'http://192.168.15.16:9090/erp_web/datasnap/rest/TWSEmpregados';
-const baseUrl = 'http://principios.no-ip.org:9090/erp_web/datasnap/rest/TWSEmpregados';
+const baseUrl = 'http://192.168.15.16:9090/erp_web/datasnap/rest/TWSEmpregados';
+//const baseUrl = 'http://principios.no-ip.org:9090/erp_web/datasnap/rest/TWSEmpregados';
 
 const request = async (method, endpoint, params, token = null) => {
   method = method.toLowerCase();
